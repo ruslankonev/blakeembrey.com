@@ -1,5 +1,5 @@
 {
-  "name": "blakeembrey.com",
+  "name": "justpromotion.ru",
   "version": "0.3.1",
   "description": "Personal blog of Blake Embrey",
   "private": true,
@@ -29,7 +29,7 @@
     "serve": "serve build -p ${PORT:-3000}",
     "watch": "onchange -i build.js \"{src,layouts}/**/*\" -- npm run build",
     "build": "node build.js",
-    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:blakeembrey/blakeembrey.com.git\" master:gh-pages --force && rm -rf .git"
+    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:ruslankonev/justpromotion.ru.git\" master:gh-pages --force && rm -rf .git"
   },
   "repository": {
     "type": "git",
